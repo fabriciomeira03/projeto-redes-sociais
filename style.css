@@ -48,7 +48,25 @@ section#telefone {
 iframe#tela {
     position: absolute;
     top: 28.5%;
-    left: 42%;
+    left: 41.3%;
     height: 470px;
     width: 261px;
+    
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+section#redes-sociais img {
+    width: 70px;
+    margin: 20px;
+    border-radius: 50%;   /* serve para deixar as img's redondas */
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box; /* a borda fará parte da caixa. assim não moverão todas quando passar o mouse */
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate (-3px, -3px);
+    transition: transform 1s, border 1s;
 }
