@@ -16,8 +16,8 @@ html, body {
 
 
 body {
-    background-image: url('../projeto-redes-sociais/fundo-madeira.jpg') no-repeat;
-    height: 500px;
+    /*background-image: url('../projeto-redes-sociais/fundo-madeira.jpg');
+    height: 100vh; */
     background-size: cover;
     background-attachment: fixed;
 }
@@ -26,6 +26,8 @@ body {
 
 main {
     position: relative;
+    background-image: url('../projeto-redes-sociais/fundo-madeira.jpg');
+    height: 100px;
     height: 100vh;
     background-color: rgb(228, 235, 228);
 }
@@ -40,4 +42,13 @@ section#telefone {
     height: 627px;
     width: 320px;
     background: url('../projeto-redes-sociais/frame-iphone.png') no-repeat;
+}
+
+
+iframe#tela {
+    position: absolute;
+    top: 28.5%;
+    left: 42%;
+    height: 470px;
+    width: 261px;
 }
