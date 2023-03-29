@@ -22,7 +22,7 @@ img {
 
 img {
     display: block;
-    background-color: rgba(216, 22, 22, 0.342);
+    background-color: rgba(231, 226, 222, 0.233);
     padding: 20px;
     text-align: center;
     font-weight: bolder;
@@ -34,7 +34,7 @@ img {
 
 a {
     display: block;
-    background-color: rgba(216, 22, 22, 0.205);
+    background-color: rgba(235, 228, 225, 0.192);
     padding: 20px;
     text-align: center;
     font-weight: bolder;
@@ -42,5 +42,5 @@ a {
 }
 
 a:hover {
-    background-color: rgba(255, 0, 0, 0.466);
+    background-color: rgba(255, 115, 0, 0.274);
 }
